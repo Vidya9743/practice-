@@ -4,20 +4,21 @@
 // a=25;
 // console.log(a+b+c);
 
-import { type } from "os";
 
+let x = "vidya";
 let z = 18;
-{
-    let x = "vidya";
-    var a = 10;
-    x = "veena";
-    console.log(x + z + a);
-    console.log(a + z + x);
-    console.log((z + a) + x);
-    console.log(typeof x);
-}
+let a = 10;
+x = "veena";
+console.log(`x = ${x}`);
+console.log(`z = ${z}`);
+console.log(`a = ${a}`);
+console.log(`x + z + a = ${x + z + a}`);
+console.log(`a + z + x = ${a + z + x}`);
+console.log(`(z + a) + x = ${(z + a) + x}`);
+console.log(`typeof x = ${typeof x}`);
 a = 40;
-console.log(a + z);
-console.log(typeof z);
-console.log(typeof a);
-// console.log(x); // x is not defined here because it is block scoped
+console.log(`a (after reassignment) = ${a}`);
+console.log(`a + z = ${a + z}`);
+console.log(`typeof z = ${typeof z}`);
+console.log(`typeof a = ${typeof a}`);
+// console.log(x); // x is defined here because it is not block scoped
