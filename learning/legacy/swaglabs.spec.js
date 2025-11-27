@@ -1,5 +1,5 @@
 import {test, expect} from '@playwright/test'
-import swaglabslogin from "../testdata/swaglabslogin.json"
+import swaglabslogin from "../../testdata/swaglabslogin.json"
 test('login with valid username and password' , async ({ page }) =>{
     //action
 await page.goto('https://www.saucedemo.com/v1/index.html')
