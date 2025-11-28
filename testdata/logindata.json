@@ -1,5 +1,5 @@
 {
-    "username" : "admin",
+    "username" : "Admin",
     "password" : "admin123",
     "invalidusername" : "abcd",
     "invalidpassword" :"1234",
