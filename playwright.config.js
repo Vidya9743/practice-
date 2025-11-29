@@ -14,7 +14,7 @@ require('dotenv').config()
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
-  testDir: './learning/legacy',
+  testDir: './tests',
   timeout: 80000,
   
 
