@@ -1,5 +1,5 @@
 import { test} from '@playwright/test';
-import {swagLabs} from '../pages/swaglabs.pom';
+import {swagLabs} from '../pages/standarduser.pom';
 import data from "../testdata/swaglabslogin.json";
 let swaglabslogin;
 
