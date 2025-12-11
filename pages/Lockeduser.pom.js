@@ -1,4 +1,4 @@
-import{ excepts } from '@playwright/test';
+import{ except } from '@playwright/test';
 exports.lockedUser=class lockedUser{
 constructor(page){
 this.page=page
