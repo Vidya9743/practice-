@@ -3,7 +3,7 @@
     "password" : "secret_sauce",
     "lockedusername" :"locked_out_user",
     "performance glich username" : "performance_glitch_user",
-    "problem user" : "problem_user",
+    "problemuser" : "problem_user",
     "invalid password" : "1234",
     "invalid user" : "vidya",
     "empty username and password" : " "

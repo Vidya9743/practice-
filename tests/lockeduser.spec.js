@@ -7,6 +7,7 @@ test('verify the lockeduser', async({page})=>{
 lockeduserlogin=new lockedUser(page);
 await lockeduserlogin.launchurl();
 await lockeduserlogin.lockedCreds(data.lockedusername , data.password)
+await lockeduserlogin.clickLogin();
 await lockeduserlogin.verifyErrorMsg()
 })
 
